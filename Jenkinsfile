@@ -1,7 +1,7 @@
 node {
 
    def registryProjet='formation/'
-   def IMAGE="${registryProjet}app:5"
+   def IMAGE="${registryProjet}app:5.1"
 
     stage('Clone') {
           checkout scm
