@@ -1,7 +1,7 @@
 node {
 
-   def registryProjet='ac-versailles/'
-   def IMAGE="${registryProjet}spip:5.3"
+   def registryProjet='formation/'
+   def IMAGE="${registryProjet}appliDeOuf:5.3"
 
     stage('Clone') {
           checkout scm
